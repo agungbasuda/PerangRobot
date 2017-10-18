@@ -1,0 +1,91 @@
+fileFormatVersion: 2
+guid: 1ee3c468ea2b6744797d1d92787a0384
+timeCreated: 1497583963
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: guidebar_0
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: guidebar_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 226
+        width: 838
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -419, y: 319}
+        - {x: -419, y: -247}
+        - {x: -415, y: -252}
+        - {x: -408, y: -259}
+        - {x: -408, y: -260}
+        - {x: -402, y: -266}
+        - {x: -402, y: -267}
+        - {x: -395, y: -274}
+        - {x: -395, y: -275}
+        - {x: -388, y: -282}
+        - {x: -388, y: -283}
+        - {x: -381, y: -290}
+        - {x: -381, y: -291}
+        - {x: -375, y: -297}
+        - {x: -375, y: -298}
+        - {x: -368, y: -305}
+        - {x: -368, y: -306}
+        - {x: -361, y: -313}
+        - {x: -361, y: -314}
+        - {x: -356, y: -319}
+        - {x: 419, y: -319}
+        - {x: 419, y: 319}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

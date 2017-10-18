@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{AAB17525-F55C-C4FF-5040-00B1D02567F7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_1;UNITY_2017_1;UNITY_2017;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\scripts\alert.cs" />
+     <Compile Include="Assets\scripts\barscript.cs" />
+     <Compile Include="Assets\scripts\buffbarscript.cs" />
+     <Compile Include="Assets\scripts\bulletcontroller.cs" />
+     <Compile Include="Assets\scripts\camcontrol.cs" />
+     <Compile Include="Assets\scripts\canvaslookatcamera.cs" />
+     <Compile Include="Assets\scripts\damagecontrol.cs" />
+     <Compile Include="Assets\scripts\damageoutput.cs" />
+     <Compile Include="Assets\scripts\ebarscript.cs" />
+     <Compile Include="Assets\scripts\ebossbullet.cs" />
+     <Compile Include="Assets\scripts\ebossulet1.cs" />
+     <Compile Include="Assets\scripts\ebossulet2.cs" />
+     <Compile Include="Assets\scripts\ebossulet3.cs" />
+     <Compile Include="Assets\scripts\ebossulet4.cs" />
+     <Compile Include="Assets\scripts\ebossulet5.cs" />
+     <Compile Include="Assets\scripts\egunbullet.cs" />
+     <Compile Include="Assets\scripts\egundua.cs" />
+     <Compile Include="Assets\scripts\egunempat.cs" />
+     <Compile Include="Assets\scripts\egunlima.cs" />
+     <Compile Include="Assets\scripts\egunsatu.cs" />
+     <Compile Include="Assets\scripts\eguntiga.cs" />
+     <Compile Include="Assets\scripts\erocketbullet.cs" />
+     <Compile Include="Assets\scripts\erocketdua.cs" />
+     <Compile Include="Assets\scripts\erocketempat.cs" />
+     <Compile Include="Assets\scripts\erocketlima.cs" />
+     <Compile Include="Assets\scripts\erocketsatu.cs" />
+     <Compile Include="Assets\scripts\erockettiga.cs" />
+     <Compile Include="Assets\scripts\estat.cs" />
+     <Compile Include="Assets\scripts\failed.cs" />
+     <Compile Include="Assets\scripts\FPSDisplay.cs" />
+     <Compile Include="Assets\scripts\home.cs" />
+     <Compile Include="Assets\scripts\laser.cs" />
+     <Compile Include="Assets\scripts\level1clear.cs" />
+     <Compile Include="Assets\scripts\level2clear.cs" />
+     <Compile Include="Assets\scripts\level3clear.cs" />
+     <Compile Include="Assets\scripts\level4clear.cs" />
+     <Compile Include="Assets\scripts\level5clear.cs" />
+     <Compile Include="Assets\scripts\levelselect.cs" />
+     <Compile Include="Assets\scripts\mainmenu.cs" />
+     <Compile Include="Assets\scripts\minibossulet5.cs" />
+     <Compile Include="Assets\scripts\pause.cs" />
+     <Compile Include="Assets\scripts\player.cs" />
+     <Compile Include="Assets\scripts\playerdata.cs" />
+     <Compile Include="Assets\scripts\playerlevel.cs" />
+     <Compile Include="Assets\scripts\playerspotted.cs" />
+     <Compile Include="Assets\scripts\playersurvival.cs" />
+     <Compile Include="Assets\scripts\reloadbarscript.cs" />
+     <Compile Include="Assets\scripts\roomcontroller.cs" />
+     <Compile Include="Assets\scripts\roomcontrollerboss.cs" />
+     <Compile Include="Assets\scripts\roomcontrollerminiboss.cs" />
+     <Compile Include="Assets\scripts\saveloadmanager.cs" />
+     <Compile Include="Assets\scripts\sceneloader.cs" />
+     <Compile Include="Assets\scripts\secondcamcontrol.cs" />
+     <Compile Include="Assets\scripts\showmoney.cs" />
+     <Compile Include="Assets\scripts\stat.cs" />
+     <Compile Include="Assets\scripts\statusdisplay.cs" />
+     <Compile Include="Assets\scripts\survivalclear.cs" />
+     <Compile Include="Assets\scripts\survivalguide.cs" />
+     <Compile Include="Assets\scripts\survivalship.cs" />
+     <Compile Include="Assets\scripts\tutorial.cs" />
+     <Compile Include="Assets\scripts\upgrade.cs" />
+     <None Include="Assets\fonts\readme.txt" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>C:/Users/Public/Documents/Unity Projects/PerangRobot/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{5DB4360F-2BD6-3E6C-FB24-2A3C54B369D7}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
